@@ -1,0 +1,129 @@
+
+.app{
+  align-items: center;
+}
+.cart-count{
+  display: flex;
+  flex-wrap: wrap;
+  margin:20px;
+  
+  align-items: center;  
+}
+.container-fluid{
+  justify-content:space-around ;
+}
+
+.start{
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  padding: 10px;
+  justify-content:space-between;
+}
+.end{
+  display: flex;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  border:1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  }
+.end:hover{
+  background-color: black;
+  color: white;
+}
+.badge{
+  display: flex;
+  width:30px;
+  height: 30px;
+  padding:5px;
+  margin: 5px;
+  justify-content: center;
+}
+.cart-area{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+  margin: 15px;
+  justify-content: center;
+
+}
+.cart-component{
+   display:flex;
+   gap: 1rem;
+   flex-direction: column;
+   width:250px;
+   height: 350px;
+   border:1px solid black;
+   border-radius: 5px;
+   justify-content: stretch;
+   align-items: center;
+}
+img{
+  width:230px;
+  height: 130px;
+  object-fit: cover;
+  align-items: center;
+}
+button{
+  width: max-content;
+  height: 35px;
+  border: none;
+  background-color: hsl(7, 91%, 60%);
+  padding: 5px;
+  padding-bottom: 5px;
+  color:white;
+  font-weight: bold;
+  font-size: large;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 2rem;
+ 
+}
+.top{
+  font-weight: bold;
+}
+.top2{
+  font-weight: bold;
+}
+.shop{
+  background-color: rgb(42, 42, 42);
+  color: white;
+  height: 250px;
+  justify-content: center;
+  text-align: center;
+  padding: 70px;
+  
+}
+
+@media screen and (max-width:450px){
+  .cart-area{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    margin: 13px;
+    justify-content: center;
+  }
+  img{
+    width:100px;
+    height: 150px;
+    object-fit: cover;
+    align-items: center;
+  }
+  .cart-component{
+    display:flex;
+    gap: 1rem;
+    flex-direction: column;
+    width:150px;
+    height: 400px;
+    border:1px solid black;
+    border-radius: 5px;
+    justify-content: stretch;
+    align-items: center;
+    
+ }
+  
+}
